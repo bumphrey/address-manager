@@ -1,0 +1,11 @@
+---
+erp:
+  default: "MOCK_SYSTEM"
+  systems:
+#    - alias: "ERP_SYSTEM"
+#      uri: "https://myXXXXXX.s4hana.ondemand.com"
+#      proxy: "http://proxy:8080"
+    - alias: "MOCK_SYSTEM"
+      uri: "http://localhost:3000"
+#    - alias: "MOCK_SYSTEM"
+#      uri: "bupa-mock-odata-responsible-ostrich.cfapps.eu10.hana.ondemand.com"
