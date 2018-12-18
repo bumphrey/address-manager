@@ -66,7 +66,6 @@ public class TenantProvisioningServlet extends HttpServlet {
 
     private String retrieveTenantId(final HttpServletRequest request) {
         logger.info("Tenant Id:"+request.getPathInfo());
-        System.out.println(request.getPathInfo());
         final String pathInfo = request.getPathInfo();
         return pathInfo.split("/")[TENANT_PARAMETER_INDEX];
     }
